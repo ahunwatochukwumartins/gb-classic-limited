@@ -58,7 +58,7 @@ function Navbar() {
   />
           
           <span className="hidden text-xs tracking-widest text-gray-600 sm:block">
-            BUSINESS • LEADERSHIP • IMPACT
+             Building Businesses, Creating Opportunities, Preserving Heritage, and Inspiring Generations.
           </span>
         </a>
 
