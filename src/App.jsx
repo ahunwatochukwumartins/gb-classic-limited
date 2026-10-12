@@ -131,10 +131,16 @@ function App() {
           <h2 className={sectionTitle}>About GB Classic Limited</h2>
 
           <p className="max-w-3xl text-lg leading-8 text-gray-600">
-            GB Classic Limited is built around enterprise, innovation, and the
-            pursuit of meaningful impact. Our interests span multiple sectors,
-            with a commitment to building valuable relationships and exploring
-            sustainable business opportunities.
+            GB Classic Limited is a diversified company with interests in agriculture, importation of electronic devices and electric bikes, real estate, business development, and music entertainment through its record label.
+            <br></br>
+
+            Beyond business, we are committed to cultural preservation and youth empowerment through Mmirri Nations, our NGO and foundation initiative dedicated to awakening African youths and generations yet unborn to the importance of embracing, preserving, and promoting African culture, traditions, values, and heritage.
+
+            <br></br>
+            Through innovation, strategic partnerships, and purposeful initiatives, we aim to create opportunities, drive economic growth, empower communities, and preserve Africa’s rich identity for future generations.
+
+            <br></br>
+            Join us in building businesses, creating opportunities, and preserving our heritage. Partner with GB Classic Limited, invest in our vision, and become part of a movement shaping a prosperous and culturally conscious Africa.
           </p>
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
