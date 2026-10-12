@@ -19,14 +19,15 @@ const businessAreas = [
   {
     title: "Record Label & Media",
     description:
-      "Music, talent development, entertainment, and creative media production.",
+      "Mmirri Nations is the NGO and foundation initiative of GB Classic Limited, dedicated to awakening African youths and future generations to the importance of preserving and promoting African culture, traditions, values, and heritage. Through cultural awareness and youth empowerment, we aim to preserve Africa’s identity and inspire a generation proud of its roots. GB Classic Limited’s record label is committed to discovering, developing, and promoting musical talent. We aim to create opportunities for emerging artists, produce quality music, and build a platform that celebrates creativity, promotes African sounds, and connects talented musicians with wider audiences.",
     icon: "🎵",
     id: "record-label",
   },
   {
     title: "Agriculture",
     description:
-      "Agricultural ventures focused on production, supply, and business opportunities.",
+      "GB Classic Limited is committed to exploring profitable opportunities across the agricultural value chain, with a focus on strategic investment, efficient production, and sustainable business growth. We aim to build commercially viable agricultural ventures that strengthen food supply, create employment, and deliver long-term value to our partners, investors, and communities.",
+
     icon: "🌾",
     id: "agriculture",
   },
