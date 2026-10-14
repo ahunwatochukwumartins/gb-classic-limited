@@ -59,68 +59,96 @@ function App() {
       <Navbar />
 
       {/* Hero Section */}
-      <section
-        id="home"
-        className="relative overflow-hidden bg-black text-white"
-      >
-        <div className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
+    
+<section
+  id="home"
+  className="relative overflow-hidden bg-black text-white"
+>
+  <div className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-yellow-400/10 blur-3xl" />
 
-        <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-24 md:grid-cols-2 md:py-32">
-          <div>
-            <p className="mb-5 font-bold uppercase tracking-[0.25em] text-yellow-400">
-              Welcome to GB Classic Limited
-            </p>
+  <div className="relative mx-auto grid max-w-7xl items-center gap-8 px-6 py-12 md:grid-cols-2 md:gap-10 md:py-16">
 
-            <h1 className="text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
-              Building Businesses.
-              <span className="block text-yellow-400">
-                Creating Impact.
-              </span>
-            </h1>
+    {/* Hero Content */}
+    <div>
+      <p className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-yellow-400 sm:text-sm">
+        Welcome to GB GHOST ENTERTAINMENT
+      </p>
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
-              Exploring opportunities across agriculture, media, real estate,
-              importation, hospitality, and strategic investments.
-            </p>
+      <h1 className="text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
+        The Sound of African Reawakening
+        <span className="mt-2 block text-yellow-400">
+          Listen to GB Ghost and celebrate African heritage.
+        </span>
+      </h1>
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a href="#business" className={goldButton}>
-                Explore Our Businesses
-              </a>
+      <p className="mt-4 max-w-xl text-sm leading-7 text-gray-300 sm:text-base">
+        GB Ghost is a purpose-driven record label that uses music to awaken
+        African consciousness, revive cultural pride, and reconnect
+        generations with their ancestral heritage. Through powerful sounds
+        and meaningful storytelling, we inspire Africans to embrace their
+        identity, preserve their traditions, and return to their roots.
+      </p>
 
-              <a
-                href="#contact"
-                className="inline-flex items-center justify-center rounded-md border border-yellow-400 px-6 py-3 font-bold text-yellow-400 transition hover:bg-yellow-400 hover:text-black"
-              >
-                Contact Us
-              </a>
-            </div>
+      <div className="mt-6 flex flex-wrap gap-3">
+        <a href="#business" className={goldButton}>
+          Explore Our Businesses
+        </a>
 
-            <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm font-medium text-gray-300">
-              <span>Entrepreneur</span>
-              <span className="text-yellow-400">•</span>
-              <span>Investor</span>
-              <span className="text-yellow-400">•</span>
-              <span>Business Strategist</span>
-              <span className="text-yellow-400">•</span>
-              <span>Philanthropist</span>
-            </div>
-          </div>
+        <a
+          href="#contact"
+          className="inline-flex items-center justify-center rounded-md border border-yellow-400 px-5 py-2.5 text-sm font-bold text-yellow-400 transition hover:bg-yellow-400 hover:text-black"
+        >
+          Contact Us
+        </a>
+      </div>
+    </div>
 
-          {/* Replace this placeholder with your own professional photo */}
-          <div className="flex min-h-72 items-center justify-center rounded-2xl border border-yellow-400/30 bg-linear-to-br from-gray-900 to-black p-8">
-            <div className="text-center">
-              <div className="mx-auto mb-5 flex h-24 w-24 items-center justify-center rounded-full border-2 border-yellow-400 text-4xl text-yellow-400">
-                GB
-              </div>
-              <p className="text-xl font-bold">GB Classic Limited</p>
-              <p className="mt-2 text-sm text-gray-400">
-                Business • Leadership • Impact
-              </p>
-            </div>
-          </div>
+    {/* Compact Music Player */}
+    <div className="rounded-2xl border border-yellow-400/30 bg-linear-to-br from-gray-900 to-black p-5 text-white sm:p-6">
+
+      <div className="mb-4 text-center">
+        <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-full border-2 border-yellow-400 bg-black text-xl font-black text-yellow-400">
+          GB
         </div>
-      </section>
+
+        <h3 className="text-xl font-bold text-yellow-400">
+          GB Ghost
+        </h3>
+
+        <p className="mt-1 text-xs text-gray-400">
+          The Sound of African Reawakening
+        </p>
+      </div>
+
+      <div className="rounded-xl border border-white/10 bg-white/5 p-3">
+        <p className="mb-2 text-xs font-semibold text-gray-300">
+          Now Playing
+        </p>
+
+        <audio
+          controls
+          preload="metadata"
+          className="w-full"
+        >
+          <source
+            src="/music/gb-ghost-song-1.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support audio playback.
+        </audio>
+
+        <p className="mt-2 text-xs text-gray-400">
+          Embrace your roots. Celebrate African heritage.
+        </p>
+      </div>
+
+      <p className="mt-4 text-center text-xs text-gray-500">
+        © GB Ghost — A GB Classic Limited Record Label
+      </p>
+    </div>
+
+  </div>
+</section>
 
       {/* About Section */}
       <section id="about" className="scroll-mt-24 px-6 py-20">
