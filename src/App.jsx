@@ -91,15 +91,10 @@ function App() {
 
       <div className="mt-6 flex flex-wrap gap-3">
         <a href="#business" className={goldButton}>
-          Explore Our Businesses
+          Explore the Rhythm
         </a>
 
-        <a
-          href="#contact"
-          className="inline-flex items-center justify-center rounded-md border border-yellow-400 px-5 py-2.5 text-sm font-bold text-yellow-400 transition hover:bg-yellow-400 hover:text-black"
-        >
-          Contact Us
-        </a>
+      
       </div>
     </div>
 
